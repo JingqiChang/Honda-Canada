@@ -1,0 +1,52 @@
+show databases;
+create database honda;
+use honda;
+create table hondacanada(
+Install_Customer int not null,
+Bill_Customer_Number int not null,
+Customer_Name varchar(20),
+Address text,
+City text,
+State_Province text,
+Postal_Code text,
+Original_Contract_Number text,
+Contract_Number text,
+Current_Period text,
+Term int,
+Frequency text,
+Adv_Arr_Indicator text,
+Transaction_Type_Code text,
+Customer_Reference_1 text,
+Customer_Reference_2 text,
+Product_Description text,
+Machine_Type text,
+Model text,
+Serial text,
+MES_Number text,
+Manufacturer_Serial_Number text,
+Net_Amount_Financed decimal(10,2),
+Lease_Type text,
+Current_Period_Bill_Amount decimal(10,2),
+Flat_Profile text,
+Billing_Start_Date date,
+Billing_End_Date date,
+New_Lease_Start_Date date,
+New_Lease_End_Date date,
+Cont_Start_Date date,
+Cont_End_Date date,
+Renew_Start_Date date,
+Renew_End_Date date
+);
+describe hondacanada;
+show variables like '%secure%';
+
+load data infile 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\hondacanada.csv'
+into table hondacanada
+fields terminated by ','
+enclosed by ''
+enclosed by '\\'
+lines terminated by '\r\n'
+starting by ''
+ignore 1 lines;
+
+show variables like 'character%';
