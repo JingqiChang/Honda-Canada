@@ -1,5 +1,5 @@
-# Honda-Canada
-Analyze rental equipments in Honda Canada
+# Analyze rental equipments in Honda Canada
+## Cleaning, checking and analyzing data by SQL, and visualize data via Tableau  
 ![image](https://github.com/JingqiChang/Honda-Canada/blob/main/%E5%B9%BB%E7%81%AF%E7%89%871.png)
 ![image](https://github.com/JingqiChang/Honda-Canada/blob/main/%E5%B9%BB%E7%81%AF%E7%89%872.png)
 ![image](https://github.com/JingqiChang/Honda-Canada/blob/main/%E5%B9%BB%E7%81%AF%E7%89%873.png)
